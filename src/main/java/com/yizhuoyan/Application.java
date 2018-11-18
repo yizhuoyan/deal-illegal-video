@@ -1,10 +1,8 @@
 package com.yizhuoyan;
 
-import javax.swing.LookAndFeel;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-
 import com.yizhuoyan.view.AppWindow;
+
+import javax.swing.*;
 
 public class Application {
 
@@ -14,6 +12,7 @@ public class Application {
 			@Override
 			public void run() {
 				AppWindow win=new AppWindow();
+				win.setLocationRelativeTo(null);
 				win.setVisible(true);
 			}
 		});

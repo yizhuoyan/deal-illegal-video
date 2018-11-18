@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="outMD5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/outMD5_jar</output-path>
+    <root id="archive" name="outMD5.jar">
+      <element id="module-output" name="outMD5" />
+    </root>
+  </artifact>
+</component>
